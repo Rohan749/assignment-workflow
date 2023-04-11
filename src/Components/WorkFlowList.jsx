@@ -19,7 +19,7 @@ const WorkFlowList = () => {
   return (
     <>
     <div className='workflow_heading'>Workflows</div>
-    {detail.length != 0 ?
+    {detail.length !== 0 ?
     <div className='workflow_body'>
         <div>
         <div className='workflow_details'>

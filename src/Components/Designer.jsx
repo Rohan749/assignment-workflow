@@ -22,7 +22,7 @@ const Designer = (props) => {
     <>
         <div className='designer_body'>
             <div className='designer_heading'><span>Workflow Name: {location.state.value}</span></div>
-            {detail.length !=0 ?
+            {detail.length !== 0 ?
             <div className='lowerDesign_body'>
                 <div className='lowerDesign_left'>
                     <h3 className='moduleHead'>

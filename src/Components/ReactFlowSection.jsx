@@ -4,7 +4,6 @@ import ReactFlow, {
   useNodesState,
   useEdgesState,
   Background,
-  useReactFlow
 } from 'reactflow';
 import 'reactflow/dist/base.css';
 import "./ReactFlowSection.css"
@@ -40,8 +39,6 @@ const ReactFlowSection = () => {
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
   const [reactFlowInstance, setReactFlowInstance] = useState(null);
-  const getNodes = useReactFlow()
-
 
   const onConnect = useCallback((params) => setEdges((eds) => addEdge(params, eds)), [setEdges]);
 
@@ -75,7 +72,7 @@ const ReactFlowSection = () => {
       srcNode.style = connectedStyle 
     })
 
-  },[edges])
+  },[edges, nodes, connectedStyle])
 
 
   const onDrop = useCallback(
