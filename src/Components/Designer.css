@@ -1,0 +1,36 @@
+.designer_heading {
+    border: 1px solid rgb(149, 149, 149);
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 1rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.lowerDesign_body {
+    display: flex;
+    height: fit-content;
+    min-height: calc(100vh - 5rem);
+}
+
+.lowerDesign_left {
+    border: 1px solid rgb(152, 149, 149);
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moduleHead {
+    padding: 1rem;
+}
+
+.design_modules {
+    padding: 1rem;
+}
+
+.loading_page {
+    text-align: center;
+    margin-top: 4rem;
+}

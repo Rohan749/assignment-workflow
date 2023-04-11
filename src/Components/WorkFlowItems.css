@@ -1,0 +1,17 @@
+.items_details {
+    width: 50vw;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.items_value {
+    width: 33%;
+    height: 100%;
+    background-color: rgb(131, 131, 255);
+    color: white;
+    border: 1px solid white;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 5px 0;
+}

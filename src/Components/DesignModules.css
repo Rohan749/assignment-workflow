@@ -1,0 +1,26 @@
+.designModules_body {
+    margin: 5px 0;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+}
+
+.module_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(231, 231, 255);
+    color: rgb(67, 67, 67);
+}
+
+.smaller {
+    width: 15%;
+    font-weight: bold;
+}
+
+.name {
+    width: 70%;
+    background-color: rgb(231,231,255);
+}
